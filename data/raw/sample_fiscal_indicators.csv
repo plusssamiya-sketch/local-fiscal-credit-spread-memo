@@ -1,0 +1,14 @@
+period,region,fiscal_revenue,fiscal_expenditure,land_transfer_revenue,gdp_growth,debt_pressure_proxy
+2024-06,Fujian,520,610,180,0.045,0.42
+2024-07,Fujian,525,615,165,0.044,0.43
+2024-08,Fujian,531,620,152,0.043,0.45
+2024-09,Fujian,536,628,148,0.043,0.46
+2024-06,Hefei,410,500,140,0.039,0.51
+2024-07,Hefei,418,506,128,0.038,0.53
+2024-08,Hefei,423,512,120,0.037,0.55
+2024-09,Hefei,427,520,118,0.037,0.56
+2024-06,Anonymized-City,360,465,96,0.034,0.61
+2024-07,Anonymized-City,365,470,90,0.033,0.63
+2024-08,Anonymized-City,371,478,82,0.032,0.65
+2024-09,Anonymized-City,374,486,78,0.032,0.67
+
