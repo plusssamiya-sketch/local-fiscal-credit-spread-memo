@@ -15,7 +15,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
 6 0 obj
-<< /Length 2603 >>
+<< /Length 2185 >>
 stream
 BT
 /F2 18 Tf
@@ -25,7 +25,7 @@ ET
 BT
 /F2 12 Tf
 72 680 Td
-(Professional Research Memo) Tj
+(Short Research Memo) Tj
 ET
 BT
 /F1 10 Tf
@@ -35,97 +35,82 @@ ET
 BT
 /F1 10 Tf
 72 646 Td
-(Motivation. Fixed-income research on local-government financing requires more than tracking) Tj
+(Motivation. In fixed-income research, credit spreads are not only about yields. I wanted to) Tj
 ET
 BT
 /F1 10 Tf
 72 632 Td
-(yields. Credit spreads can reflect fiscal capacity, land-market revenue, refinancing pressure,) Tj
+(organize fiscal revenue, land-transfer revenue, debt pressure, regional growth, maturity, and) Tj
 ET
 BT
 /F1 10 Tf
 72 618 Td
-(regional growth, maturity structure, liquidity, and rating segmentation. This memo turns that) Tj
+(liquidity variables in one small workflow. Data. This public version uses synthetic region-month) Tj
 ET
 BT
 /F1 10 Tf
 72 604 Td
-(internship-style analytical logic into a public reproducible workflow. Data. The portfolio) Tj
+(sample data. A fuller version would combine local fiscal indicators, land-transfer revenue,) Tj
 ET
 BT
 /F1 10 Tf
 72 590 Td
-(version uses synthetic region-month sample data. The intended public-data version would combine) Tj
+(regional macro controls, and public bond-spread indicators. No employer-internal data are) Tj
 ET
 BT
 /F1 10 Tf
 72 576 Td
-(local fiscal indicators, land-transfer revenue, regional macro controls, and public bond-spread) Tj
+(included. Variables. The dependent variable is credit spread, calculated as weighted yield minus) Tj
 ET
 BT
 /F1 10 Tf
 72 562 Td
-(indicators. No employer-internal data are included. Variables. The dependent variable is credit) Tj
+(benchmark yield. Fiscal explanatory variables include fiscal self-sufficiency, land-revenue) Tj
 ET
 BT
 /F1 10 Tf
 72 548 Td
-(spread, calculated as weighted yield minus benchmark yield. Fiscal explanatory variables include) Tj
+(share, debt-pressure proxy, and GDP growth. Outputs. Table 1 reports descriptive statistics by) Tj
 ET
 BT
 /F1 10 Tf
 72 534 Td
-(fiscal self-sufficiency, land-revenue share, debt-pressure proxy, and GDP growth. Outputs. Table) Tj
+(region. Figure 1 shows credit-spread movements across regions. Figure 2 compares fiscal self-) Tj
 ET
 BT
 /F1 10 Tf
 72 520 Td
-(1 reports descriptive statistics by region. Figure 1 shows credit-spread movements across) Tj
+(sufficiency and land-revenue reliance. Table 2 reports a simple OLS specification relating) Tj
 ET
 BT
 /F1 10 Tf
 72 506 Td
-(regions. Figure 2 compares fiscal self-sufficiency and land-revenue reliance. Table 2 reports a) Tj
+(credit spreads to fiscal and regional indicators. Interpretation. In the sample workflow, weaker) Tj
 ET
 BT
 /F1 10 Tf
 72 492 Td
-(simple OLS specification relating credit spreads to fiscal and regional indicators.) Tj
+(fiscal self-sufficiency, higher land-revenue reliance, and higher debt pressure are treated as) Tj
 ET
 BT
 /F1 10 Tf
 72 478 Td
-(Interpretation. In the sample workflow, weaker fiscal self-sufficiency, higher land-revenue) Tj
+(possible correlates of wider credit spreads. The project does not claim causal identification.) Tj
 ET
 BT
 /F1 10 Tf
 72 464 Td
-(reliance, and higher debt pressure are organized as potential correlates of wider credit) Tj
+(What I kept in the public version. The repo keeps the Python scripts, sample raw files,) Tj
 ET
 BT
 /F1 10 Tf
 72 450 Td
-(spreads. The project does not claim causal identification. Its value is in building a) Tj
+(processed panel, tables, figures, variable notes, and confidentiality note. Internal internship) Tj
 ET
 BT
 /F1 10 Tf
 72 436 Td
-(transparent bridge from raw fiscal/market indicators to professional credit-risk interpretation.) Tj
-ET
-BT
-/F1 10 Tf
-72 422 Td
-(Portfolio contribution. This memo shows that fixed-income internship work can be reframed as) Tj
-ET
-BT
-/F1 10 Tf
-72 408 Td
-(economic analysis: defining a fiscal-credit question, constructing variables, merging regional) Tj
-ET
-BT
-/F1 10 Tf
-72 394 Td
-(panel data, producing charts/tables, and documenting confidentiality boundaries.) Tj
+(files should stay outside GitHub.) Tj
 ET
 endstream
 endobj
@@ -141,5 +126,5 @@ xref
 trailer
 << /Size 7 /Root 1 0 R >>
 startxref
-3050
+2632
 %%EOF
