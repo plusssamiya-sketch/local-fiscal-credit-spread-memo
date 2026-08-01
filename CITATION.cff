@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you reference this portfolio research memo package, please cite it using this metadata."
+message: "If you reference this course and internship-practice repository, please cite it using this metadata."
 title: "Local Fiscal Capacity and Credit Spreads Memo"
 authors:
   - family-names: "Samiya"
@@ -11,5 +11,5 @@ keywords:
   - fixed income
   - credit spreads
   - local fiscal capacity
-  - reproducible research
-abstract: "A reproducible policy-memo portfolio project linking local fiscal indicators to credit bond spreads with Python data cleaning, descriptive charts, and regression tables."
+  - course project
+abstract: "A public practice repository linking local fiscal indicators to credit bond spreads with Python data cleaning, descriptive charts, regression tables, and a short memo."
