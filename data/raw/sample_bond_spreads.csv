@@ -1,0 +1,14 @@
+period,region,issuer_group,bond_issuance,repayment,weighted_yield,benchmark_yield,remaining_maturity,turnover,implied_rating
+2024-06,Fujian,A,96,70,3.15,2.35,3.2,0.42,AA+
+2024-07,Fujian,A,88,92,3.28,2.38,3.1,0.39,AA+
+2024-08,Fujian,A,110,84,3.34,2.41,3.4,0.36,AA+
+2024-09,Fujian,A,104,88,3.41,2.43,3.3,0.35,AA+
+2024-06,Hefei,B,75,60,3.42,2.35,2.8,0.31,AA
+2024-07,Hefei,B,70,78,3.58,2.38,2.7,0.28,AA
+2024-08,Hefei,B,82,68,3.63,2.41,2.9,0.25,AA
+2024-09,Hefei,B,80,74,3.71,2.43,2.8,0.24,AA
+2024-06,Anonymized-City,C,62,50,3.82,2.35,2.4,0.22,AA-
+2024-07,Anonymized-City,C,58,72,3.95,2.38,2.3,0.20,AA-
+2024-08,Anonymized-City,C,64,55,4.02,2.41,2.5,0.18,AA-
+2024-09,Anonymized-City,C,60,68,4.15,2.43,2.4,0.16,AA-
+
