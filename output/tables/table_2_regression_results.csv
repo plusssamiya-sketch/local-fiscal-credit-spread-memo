@@ -1,0 +1,10 @@
+term,coefficient,std_error,t_stat
+Intercept,-0.055577,1.171305,-0.047448
+fiscal_self_sufficiency,0.507591,0.855872,0.593069
+land_revenue_share,-1.679444,0.21937,-7.655749
+debt_pressure_proxy,2.797299,0.771987,3.623506
+gdp_growth,12.560111,10.526947,1.193139
+remaining_maturity,-0.231348,0.038075,-6.076144
+turnover,0.025569,0.580274,0.044064
+Observations,12.0,,
+R-squared,0.999498,,
