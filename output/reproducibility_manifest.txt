@@ -1,0 +1,5 @@
+Local Fiscal Capacity and Credit Spreads reproduction manifest
+Run command: python code/00_master.py
+Generated data: data/processed/fiscal_clean.csv; data/processed/bond_spreads_clean.csv; data/processed/fiscal_credit_panel.csv
+Generated tables: output/tables/table_1_descriptive_stats.csv; output/tables/table_2_regression_results.csv
+Generated figures: output/figures/figure_1_credit_spreads.svg; output/figures/figure_2_fiscal_capacity.svg
