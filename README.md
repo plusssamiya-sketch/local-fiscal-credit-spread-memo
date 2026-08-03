@@ -8,7 +8,7 @@ The public version uses synthetic sample data. It does not include employer file
 
 | Artifact | Why it matters |
 | --- | --- |
-| [`memo/local_fiscal_credit_spread_memo.pdf`](memo/local_fiscal_credit_spread_memo.pdf) | Short memo with the question, variables, outputs, and limits. |
+| [`memo/local_fiscal_credit_spread_memo.md`](memo/local_fiscal_credit_spread_memo.md) | Short memo with the question, variables, outputs, and limits. |
 | [`code/00_master.py`](code/00_master.py) | Runs the Python scripts in order. |
 | [`output/tables/table_1_descriptive_stats.csv`](output/tables/table_1_descriptive_stats.csv) | Descriptive table generated from the sample panel. |
 | [`output/tables/table_2_regression_results.csv`](output/tables/table_2_regression_results.csv) | Simple OLS output using the sample panel; included as a coding demonstration, not a substantive finding. |
