@@ -36,3 +36,6 @@ net_financing = bond_issuance - repayment
 
 This indicator summarizes whether regional bond financing is expanding or contracting over the period.
 
+## Regression Scope
+
+The regression table is included to show how the variables can be assembled into a reproducible analysis file. Because the public sample panel has only twelve observations, the coefficients, t-statistics, and R-squared should be read as a code-output check rather than a substantive empirical result.
