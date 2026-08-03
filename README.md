@@ -1,21 +1,23 @@
 # Local Fiscal Capacity and Credit Spreads Memo
 
-This is a cleaned public version of a small fixed-income research practice project. It looks at how local fiscal indicators can be organized with credit bond spread data by region.
+This is a cleaned public version of a small fixed-income research practice project. It shows how local fiscal indicators can be organized with credit bond spread data by region.
 
-The public version uses sample data. It does not include employer files, paid database exports, internal notes, or issuer-specific confidential information.
+The public version uses synthetic sample data. It does not include employer files, paid database exports, internal notes, named issuers, or issuer-specific confidential information. The sample results demonstrate the workflow only; they should not be interpreted as evidence about real regions or issuers.
 
 ## Files to Check
 
 | Artifact | Why it matters |
 | --- | --- |
-| [`memo/local_fiscal_credit_spread_memo.pdf`](memo/local_fiscal_credit_spread_memo.pdf) | Short memo with the question, data, variables, and outputs. |
+| [`memo/local_fiscal_credit_spread_memo.pdf`](memo/local_fiscal_credit_spread_memo.pdf) | Short memo with the question, variables, outputs, and limits. |
 | [`code/00_master.py`](code/00_master.py) | Runs the Python scripts in order. |
-| [`output/tables/table_2_regression_results.csv`](output/tables/table_2_regression_results.csv) | Simple OLS output using the sample panel. |
+| [`output/tables/table_1_descriptive_stats.csv`](output/tables/table_1_descriptive_stats.csv) | Descriptive table generated from the sample panel. |
+| [`output/tables/table_2_regression_results.csv`](output/tables/table_2_regression_results.csv) | Simple OLS output using the sample panel; included as a coding demonstration, not a substantive finding. |
 | [`docs/variable_construction.md`](docs/variable_construction.md) | Variable definitions and construction rules. |
+| [`docs/confidentiality_note.md`](docs/confidentiality_note.md) | Notes on what is intentionally excluded from the public version. |
 
 ## Research Question
 
-How do local fiscal capacity indicators relate to credit bond spreads across regions?
+How can local fiscal capacity indicators be organized alongside credit bond spreads across regions?
 
 ## Analytical Frame
 
@@ -37,8 +39,10 @@ The master script regenerates processed datasets, figures, tables, and a run man
 
 ## What I Practiced
 
+- Checking raw sample files before processing.
 - Cleaning fiscal and bond-spread sample files.
-- Constructing fiscal self-sufficiency, land-revenue share, and spread variables.
+- Constructing fiscal self-sufficiency, land-revenue share, credit-spread, and net-financing variables.
+- Merging region-month fiscal and bond-spread panels.
 - Producing descriptive charts and CSV tables in Python.
 - Writing down what data can and cannot be uploaded publicly.
 
@@ -85,4 +89,4 @@ This public version uses sample data only. It does not include employer-internal
 
 ## Short CV Note
 
-Created a public-data research memo on local fiscal capacity and credit bond spreads, linking fiscal revenue, land-transfer income, regional indicators, and fixed-income market variables through reproducible Python analysis.
+Created a public research-workflow memo on local fiscal capacity and credit bond spreads, linking fiscal revenue, land-transfer income, regional indicators, and fixed-income market variables through a reproducible Python pipeline using sample data.
